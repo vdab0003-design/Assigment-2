@@ -34,7 +34,7 @@ Created a example.qmd file in r project and setting format to html so that it ca
 
 ```{r}
 
-# This section was added in testbranch 
+# This section was added in testbra
 
 ```
 
