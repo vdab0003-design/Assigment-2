@@ -3,9 +3,9 @@
     "path": "~/Desktop/5513_ass/5513ass2/example.qmd",
     "project_path": "example.qmd",
     "type": "quarto_markdown",
-    "hash": "143723344",
+    "hash": "2840135981",
     "contents": "",
-    "dirty": false,
+    "dirty": true,
     "created": 1778395940981.0,
     "source_on_save": false,
     "relative_order": 2,
@@ -17,16 +17,16 @@
         "Source": "Source",
         "docOutlineVisible": "1",
         "rmdVisualCollapsedChunks": "",
-        "cursorPosition": "47,3",
-        "scrollLine": "31",
-        "rmdVisualModeLocation": "79:0"
+        "cursorPosition": "23,59",
+        "scrollLine": "10",
+        "rmdVisualModeLocation": "1998:820.5"
     },
     "folds": "",
-    "lastKnownWriteTime": 1778404050,
+    "lastKnownWriteTime": 1778406488,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1778404050837,
+    "last_content_update": 1778406632594,
     "read_only": false,
     "read_only_alternatives": []
 }
