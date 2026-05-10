@@ -114,7 +114,8 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <div class="cell">
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Hello! This is my second assignment</span></span>
 <span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="dv">4</span><span class="sc">*</span><span class="dv">4</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="co"># Below is just a simple maths calculation</span></span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="dv">4</span><span class="sc">*</span><span class="dv">4</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>[1] 16</code></pre>
 </div>
@@ -122,6 +123,45 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </section>
 <section id="step-2--" class="level2">
 <h2 class="anchored" data-anchor-id="step-2--">STEP 2 -</h2>
+<ol type="1">
+<li>Firstly use git command in terminal of R studio - <code>pwd</code> this tells us where is our current working directory, it should be same where your R project is created.</li>
+<li>Initializing this folder by using git command - <code>git innit</code> in terminal.</li>
+<li>Now using git command - <code>git status</code> to check local repo status.</li>
+<li>After that using git command - <code>git add .</code> to stage all changes in file present in our folder.</li>
+<li>Then, using git command - <code>git commit -m "Created example.qmd file"</code> which saves snapshot of the staged files with a descriptive message.</li>
+<li>Before next steps you must ensure that you create a repo on Github and copy ssh key</li>
+<li>Now using git command - <code>git remote add origin ___</code> and paste ssh key after origin to connect local repo to Github.</li>
+<li>After cloning repo use git command - <code>git branch</code> this helps to indicate which branch are we on.</li>
+<li>Lastly using git command - <code>git push -u origin main</code> to push changes staged previously made in .qmd file to github.</li>
+</ol>
+</section>
+<section id="step-3--" class="level2">
+<h2 class="anchored" data-anchor-id="step-3--">STEP 3 -</h2>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb3"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="co"># This section was added in testbranch </span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</div>
+<ol type="1">
+<li>Creating a new branch “testbranch” by using git command - <code>git branch testbranch</code></li>
+<li>Now add a comment in a new r code chunk ” This section was added in testbranch “.</li>
+<li>After adding section in R code chunks, switch to “testbranch” by using git command - <code>git switch testbranch</code></li>
+<li>Now use 3 step work flow to commit and push the changes to remote repo which by using following git commands, firstly - <code>git add .</code>, secondly - <code>git commit -m "added new section in qmd file"</code>, and lastly <code>git push origin testbranch</code>.</li>
+</ol>
+</section>
+<section id="step-4--" class="level2">
+<h2 class="anchored" data-anchor-id="step-4--">STEP 4 -</h2>
+<ol type="1">
+<li>Make a data folder using git command - <code>mkdir data</code></li>
+<li>Now copy files which are present in data folder of assignment 1 and paste them into this data folder.</li>
+<li>Now use git command - <code>git add data</code> to stage the folder.</li>
+<li>Then using git command - <code>git commit --amend -m "Updated qmd file  and added data folder"</code> to ammend the previous commit.</li>
+<li>Finally, using git command - <code>git push --force origin testbranch</code> to push the changes and using “–force” which replaces the old commit wiht the updated ammended commit from the local repo.</li>
+</ol>
+</section>
+<section id="step-5--" class="level2">
+<h2 class="anchored" data-anchor-id="step-5--">STEP 5 -</h2>
+<ol type="1">
+<li></li>
+</ol>
 </section>
 
 </main>
