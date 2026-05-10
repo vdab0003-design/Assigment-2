@@ -21,7 +21,7 @@ Created a example.qmd file in r project and setting format to html so that it ca
 ## STEP 2 -
 
 1.  Firstly use git command in terminal of R studio - `pwd` this tells us where is our current working directory, it should be same where your R project is created.
-2.  Initializing this folder by using git command - `git innit` in terminal.
+2.  Initializing this folder by using git command - `git init` in terminal.
 3.  Now using git command - `git status` to check local repo status.
 4.  After that using git command - `git add .` to stage all changes in file present in our folder.
 5.  Then, using git command - `git commit -m "Created example.qmd file"` which saves snapshot of the staged files with a descriptive message.
@@ -49,7 +49,7 @@ Created a example.qmd file in r project and setting format to html so that it ca
 2.  Now copy files which are present in data folder of assignment 1 and paste them into      this data folder.
 3.  Now use git command - `git add data` to stage the folder.
 4.  Then using git command - `git commit --amend -m "Updated qmd file  and added data folder"` to ammend the previous commit.
-5.  Finally, using git command - ` git push --force origin testbranch ` to push the changes and using "--force" which replaces the old commit wiht the updated ammended commit from the local repo.
+5.  Finally, using git command - ` git push --force origin testbranch ` to push the          changes and using "--force" which replaces the old commit wiht the updated ammended      commit from the local repo.
 
 
 ## STEP 5 -
