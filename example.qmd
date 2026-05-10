@@ -34,8 +34,11 @@ Created a example.qmd file in r project and setting format to html so that it ca
 
 ```{r}
 
+
 # This section was added in testbranch 
-# conflict
+
+
+
 
 ```
 
@@ -43,6 +46,8 @@ Created a example.qmd file in r project and setting format to html so that it ca
 2.  Now add a comment in a new r code chunk " This section was added in testbranch ".
 3.  After adding section in R code chunks, switch to "testbranch" by using git command - `git switch testbranch`
 4.  Now use 3 step work flow to commit and push the changes to remote repo which by using following git commands, firstly - `git add .`, secondly - `git commit -m "added new section in qmd file"`, and lastly `git push origin testbranch`.
+
+
 
 ## STEP 4 -
 
@@ -52,6 +57,41 @@ Created a example.qmd file in r project and setting format to html so that it ca
 4.  Then using git command - `git commit --amend -m "Updated qmd file  and added data folder"` to ammend the previous commit.
 5.  Finally, using git command - `git push --force origin testbranch` to push the changes and using "--force" which replaces the old commit wiht the updated ammended commit from the local repo.
 
+
+
 ## STEP 5 -
 
-1.  
+1. Switch to main branch using git command - `git switch main`
+2. In code chunk 2 edit the message and save the qmd file and stage and commit changes by    using git command - ` git add .` and ` git commit -m "changing comment in code chunk"`
+
+
+
+## STEP 6 - 
+
+1. Now merge testbranch using git command `git merge testbranch`, this will show conflict    and in our code chunk 2 something like -
+   
+   This text was added on main branch.
+
+   
+
+   This section was added in testbranch.
+
+  
+
+2. Now manually fixing the conflict manually and keep whatever section you like.
+
+3. Now pushing resolved file by using git commands - `git add .` , `git commit -m "Resolved conflict"` and finally `git push origin main`
+
+4. Now use git command - `git status`
+
+
+
+
+
+
+
+
+
+
+
+
