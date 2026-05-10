@@ -35,6 +35,7 @@ Created a example.qmd file in r project and setting format to html so that it ca
 ```{r}
 
 # This section was added in testbranch 
+# conflict
 
 ```
 
@@ -46,25 +47,11 @@ Created a example.qmd file in r project and setting format to html so that it ca
 ## STEP 4 -
 
 1.  Make a data folder using git command - `mkdir data`
-2.  Now copy files which are present in data folder of assignment 1 and paste them into      this data folder.
+2.  Now copy files which are present in data folder of assignment 1 and paste them into this data folder.
 3.  Now use git command - `git add data` to stage the folder.
 4.  Then using git command - `git commit --amend -m "Updated qmd file  and added data folder"` to ammend the previous commit.
-5.  Finally, using git command - ` git push --force origin testbranch ` to push the          changes and using "--force" which replaces the old commit wiht the updated ammended      commit from the local repo.
-
+5.  Finally, using git command - `git push --force origin testbranch` to push the changes and using "--force" which replaces the old commit wiht the updated ammended commit from the local repo.
 
 ## STEP 5 -
 
-1. 
-
-
-
-
-
-
-
-
-
-
-
-
-
+1.  
