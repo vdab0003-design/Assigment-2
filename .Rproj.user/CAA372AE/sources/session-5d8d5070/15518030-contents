@@ -14,11 +14,39 @@ Created a example.qmd file in r project and setting format to html so that it ca
 
 # Below is just a simple maths calculation
 4*4
+
+
 ```
 
 ## STEP 2 -
 
-Initialising this folder by using git command - git innit
+1. Firstly use git command in terminal of R studio -  `pwd`  this tells us where is our     current working directory, it should be same where your R project is created.
+1. Initializing this folder by using git command -  `git innit` in terminal.
+2. Now using git command -  `git status`  to check local repo status.
+3. After that using git command -  `git add .` to stage all changes in file present in      our folder.
+4. Then, using git command -  `git commit -m "Created example.qmd file"`  which saves       snapshot of the staged files with a descriptive message.
+5. Before next steps you must ensure that you create a repo on Github and copy ssh key
+6. Now using git command -  `git remote add origin ___ ` and paste ssh key after origin     to connect local repo to Github.
+7. After cloning repo use git command -  `git branch`  this helps to indicate which         branch are we on.
+9. Lastly using git command -  `git push -u origin main`  to push changes staged            previously made in .qmd file to github.
+
+
+
+
+## STEP 3 -
+
+
+```{r}
+
+# This section was added in testbranch 
+
+```
+
+1. Creating a new branch "testbranch" by using git command - `git branch testbranch`
+2. Now add a comment in a new r code chunk " This section was added in testbranch ".
+3. After adding section in R code chunks, switch to "testbranch" by using git command        - `git switch testbranch`
+4. 
+
 
 
 
